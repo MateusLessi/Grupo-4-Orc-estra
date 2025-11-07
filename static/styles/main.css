@@ -1,3 +1,6 @@
+/* Esse arquivo é apenas para a estilização do header e do footer, não mexer nele em relação a outra funcionalide/tela */
+
+
 @font-face {
     font-family: 'Minicomputer';
     src: url('../fonts/Minicomputer-Regular.woff2');
@@ -16,8 +19,8 @@
 
 :root {
     --amarelo: #eefa45;
-    --verde-principal: #133842;
-    --verde-secundario: #0A3041;
+    --verde-cor-3: #133842;
+    --verde-cor-2: #0A3041;
     --branco-fundo: #EFEFEF;
     --branco-padrao: #FFFFFF;
     --fonte-titulo: 'Minicomputer';
@@ -28,6 +31,7 @@ body {
     width: 100vw;
     background-color: var(--branco-fundo);
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -36,14 +40,15 @@ header {
     display: flex;
     align-items: center;
     padding: 0 48px;
-    
 }
 
 .textos-header {
     display: flex;
-    gap: 50px;
+    gap: 48px;
     font-family: var(--fonte-titulo);
+    font-weight: bold;
     font-size: 36px;
+    flex-grow: 1;
 }
 
 header a {
@@ -53,4 +58,75 @@ header a {
 
 header img {
     margin-left: auto;
+}
+
+
+footer {
+    background-color: var(--verde-cor-3);
+    color: var(--branco-padrao);
+    font-family: var(--fonte-texto);
+    font-weight: normal;
+    height: 446px;
+    padding: 40px 48px;
+    margin-top: 260px;
+}
+
+.textos-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: auto;
+}
+
+footer h2 {
+    font-weight: normal;
+    font-size: 24px;
+    max-width: 660px;
+    margin: auto 0;
+}
+
+footer button {
+    background-color: #eefa45;
+    color: var(--verde-cor-3);
+    font-family: var(--fonte-texto);
+    font-weight: normal;
+    border: 0;
+    border-radius: 15px;
+    width: 344px;
+    height: 64px;
+    font-size: 28px;
+    margin-top: 36px;
+}
+
+.aviso {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.footer-informaçao div {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--branco-padrao);
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 32px;
 }
