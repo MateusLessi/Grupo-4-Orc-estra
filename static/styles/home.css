@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Minicomputer";
+  src: url("../fonts/Minicomputer-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minicomputer";
+  src: url("../fonts/Minicomputer-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --amarelo: #eefa45;
+  --verde-cor-3: #133842;
+  --verde-cor-2: #0a3041;
+  --branco-fundo: #efefef;
+  --branco-padrao: #ffffff;
+  --fonte-titulo: "Minicomputer";
+  --fonte-texto: "Space Grotesk", sans-serif;
+}
+
+main {
+  height: auto;
+}
+
+.banner1 {
+  min-height: 85vh; /* ajuste conforme necessário */
+  height: 933px;
+  background-image: url("../img/fundo\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* banner inferior */
+.banner2 {
+  min-height: 95vh;
+  background-image: url("../img/fundo\ 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-mensagem {
+  margin-top: 395px;
+  width: 892px;
+  max-width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mensagem-1 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--fonte-texto);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 10.8px;
+  margin: 0;
+}
+
+.mensagem-2 {
+  margin-top: 698px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--fonte-texto);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.retangulo {
+}

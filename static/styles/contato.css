@@ -1,162 +1,162 @@
 @font-face {
-    font-family: 'Minicomputer';
-    src: url('../fonts/Minicomputer-Regular.woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Minicomputer";
+  src: url("../fonts/Minicomputer-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Minicomputer';
-    src: url('../fonts/Minicomputer-Bold.woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Minicomputer";
+  src: url("../fonts/Minicomputer-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-    --amarelo: #eefa45;
-    --verde-cor-3: #133842;
-    --verde-cor-2: #0A3041;
-    --branco-fundo: #EFEFEF;
-    --branco-padrao: #FFFFFF;
-    --fonte-titulo: 'Minicomputer';
-    --fonte-texto: 'Space Grotesk', sans-serif;
+  --amarelo: #eefa45;
+  --verde-cor-3: #133842;
+  --verde-cor-2: #0a3041;
+  --branco-fundo: #efefef;
+  --branco-padrao: #ffffff;
+  --fonte-titulo: "Minicomputer";
+  --fonte-texto: "Space Grotesk", sans-serif;
 }
 
 main {
-    height: auto;
+  height: auto;
 }
 
 .titulo {
-    font-family: var(--fonte-texto);
-    font-size: 48px;
-    font-weight: bold;
-    color: #0A3041;
-    display: flex;
-    justify-content: center;
-    margin-top: 72px;
-    text-transform: uppercase;
+  font-family: var(--fonte-texto);
+  font-size: 48px;
+  font-weight: bold;
+  color: #0a3041;
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+  text-transform: uppercase;
 }
 
 .informaçoes {
-    display: flex;
-    width: auto;
-    margin-top: 72px;
-    background-color: var(--verde-cor-3);
-    justify-content: center;
-    gap: 240px;
-    padding: 48px 0;
+  display: flex;
+  width: auto;
+  margin-top: 72px;
+  background-color: var(--verde-cor-3);
+  justify-content: center;
+  gap: 240px;
+  padding: 48px 0;
 }
 
 .informaçoes p {
-    font-family: var(--fonte-texto);
-    font-weight: normal;
-    font-size: 32px;
-    color: #FFFFFF;
-    margin: 0;
+  font-family: var(--fonte-texto);
+  font-weight: normal;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
 }
 
 .email-telefone {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .email-telefone .texto-logo:first-of-type {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .texto-logo {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-    margin-top: 16px;
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 form {
-    background-color: #133842;
-    margin: 100px auto 0;
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 386px;
-    flex-direction: column;
-    align-items: center;
-    padding: 28px 20px;
-    border-radius: 30px;
-    gap: 36px;
+  background-color: #133842;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 386px;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 20px;
+  border-radius: 30px;
+  gap: 36px;
 }
 
 form h1 {
-    color: #FFFFFF;
-    font-family: var(--fonte-texto);
-    margin: 0;
-    margin-bottom: -12px;
-    font-weight: normal;
-    font-size: 36px;
+  color: #ffffff;
+  font-family: var(--fonte-texto);
+  margin: 0;
+  margin-bottom: -12px;
+  font-weight: normal;
+  font-size: 36px;
 }
 
 form input {
-    background-color: var(--verde-cor-3);
-    border: 2px solid #FFFFFF;
-    border-color: #FFFFFF;
-    border-radius: 10px;
-    color: #FFFFFF;
-    height: 48px;
-    width: 280px;
-    font-size: 18px;
-    padding: 0px 20px;
-    align-items: center;
-    box-sizing: border-box;
+  background-color: var(--verde-cor-3);
+  border: 2px solid #ffffff;
+  border-color: #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 48px;
+  width: 280px;
+  font-size: 18px;
+  padding: 0px 20px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 form input::placeholder {
-    color: #FFFFFF;
-    font-family: var(--fonte-texto);
-    font-size: 18px;
-    font-weight: normal;
+  color: #ffffff;
+  font-family: var(--fonte-texto);
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .form-informaçao {
-    display: flex;
-    gap: 80px;
-    justify-content: center;
-    width: 100%;
-    max-width: 640px;
-    box-sizing: border-box;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
 }
 
 .mensagem {
-    width: 100%;
-    max-width: 640px;
-    box-sizing: border-box;
-    height: 100%;
-    background-color: #133842;
-    font-family: var(--fonte-texto);
-    font-size: 18px;
-    font-weight: normal;
-    border: 2px solid #FFFFFF;
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding: 8px 10px;
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #133842;
+  font-family: var(--fonte-texto);
+  font-size: 18px;
+  font-weight: normal;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 8px 10px;
 }
 
 .mensagem::placeholder {
-    color: #FFFFFF;
-    font-family: var(--fonte-texto);
-    font-size: 18px;
-    font-weight: normal;
+  color: #ffffff;
+  font-family: var(--fonte-texto);
+  font-size: 18px;
+  font-weight: normal;
 }
 
 form button {
-    background-color: #eefa45;
-    color: var(--verde-cor-3);
-    border: 0;
-    border-radius: 12px;
-    min-height: 48px;
-    min-width: 240px;
-    width: 35%;
-    font-size: 24px;
+  background-color: #eefa45;
+  color: var(--verde-cor-3);
+  border: 0;
+  border-radius: 12px;
+  min-height: 48px;
+  min-width: 240px;
+  width: 35%;
+  font-size: 24px;
 }
