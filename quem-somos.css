@@ -1,0 +1,48 @@
+.quem-somos {
+  background-color: var(--branco-fundo);
+  text-align: center;
+  padding: 80px 120px;
+  font-family: var(--fonte-texto);
+  color: var(--verde-cor-2);
+}
+
+.quem-somos h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 48px;
+  color: var(--verde-cor-2);
+  margin-bottom: 40px;
+}
+
+.descricao {
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.titulo-diretoria {
+  font-family: var(--fonte-titulo);
+  font-size: 36px;
+  color: var(--verde-cor-2);
+  margin-bottom: 48px;
+}
+
+.diretoria {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--verde-cor-2);
+  font-size: 20px;
+}
+
+.card img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 12px;
+}
