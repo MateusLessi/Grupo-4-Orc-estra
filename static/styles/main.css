@@ -97,7 +97,7 @@ footer {
     color: var(--branco-padrao);
     font-family: var(--fonte-texto);
     font-weight: normal;
-    height: 446px;
+    height: 466px;
     padding: 40px 48px;
 }
 
@@ -125,12 +125,21 @@ footer button {
     color: var(--verde-cor-3);
     font-family: var(--fonte-texto);
     font-weight: normal;
-    border: 0;
+    border: 4px solid transparent;
     border-radius: 15px;
     width: 344px;
     height: 64px;
     font-size: 28px;
     margin-top: 36px;
+}
+
+.button-contato:hover {
+  border-color: var(--branco-padrao);
+}
+
+.button-contato:active {
+    border-color: #eefa45;
+    background-color: var(--branco-fundo)
 }
 
 .aviso {
